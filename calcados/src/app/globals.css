@@ -1,6 +1,7 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
+  --bg-input: #d5d5d6;
 }
 * {
   box-sizing: border-box;
