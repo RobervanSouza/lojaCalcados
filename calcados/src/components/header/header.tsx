@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
 import * as S from "./headerStyled";
 import Logo from "../../img/logo.png";
 import Image from "next/image";
 import { Input } from "./pesquisa";
+import { Carrinho } from "./carrinho";
+import Categorias from "./categorias";
 
 const Header = () => {
   return (
@@ -22,10 +26,13 @@ const Header = () => {
         </div>
         <div>
           <S.StyledNavegacao>
+            <Categorias/>
             <Input placeholder="O que você esta procurando?" />
+            <Carrinho />
           </S.StyledNavegacao>
         </div>
       </S.StyledHeader>
+    
     </div>
   );
 };

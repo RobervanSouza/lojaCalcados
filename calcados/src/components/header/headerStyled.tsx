@@ -22,9 +22,9 @@ export const StyledNavegacao = styled.div`
   height: 60px;
   padding: 10px 46px;
   justify-content: flex-end;
-  
+  gap: 4rem;
   align-items:center;
   display: flex;
   border-radius: 15px;
-  
+  overflow: hidden;
 `;
